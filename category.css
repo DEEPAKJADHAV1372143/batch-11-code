@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+     padding:0px ;}
+
+
+.row{
+	display: flex;}
+.row div{
+	flex: 1; 
+	text-align: center;}
+.row div img{
+	width: 35px; 
+	height: 35px; 
+	
+	padding: 7px;
+	
+
+	border-radius: 50%;}
+
+img[src="icon (1).png"]{
+   background-color: #edf3d7;
+}
+img[src="icon (2).png"]{
+   background-color: #fcf0b5;
+}
+img[src="icon (3).png"]{
+   background-color: #efd0f8;
+}
+img[src="icon (4).png"]{
+   background-color: #d7f7fc;
+}
+img[src="icon (5).png"]{
+   background-color: #eaf5d5;
+}
+img[src="icon (6).png"]{
+   background-color: #c8ebef;
+}
+.back_img{
+	margin-top: 20px;
+	border-top: 8px solid lightgray;
+	height: 100px;
+	padding-left: 100px;
+	padding-top: 130px;
+	padding-bottom: 130px;
+	background-image: url('v.jpg');
+	background-size: 100% 100%;
+}
+.back_img h3{
+	font-size: 35px;
+	padding: 20px 0px;
+}
+.back_img h5{
+	text-transform: capitalize;
+}
+.box{
+	display: flex;
+	padding: 30px;
+	background-color:#e3e3e3 ;
+}
+.box div{
+	flex: 1;
+	background-color:white;
+	border-radius: 3px;
+	height: 200px;
+	margin: 20px;
+	padding: 20px;
+}
+.box div button{
+	padding: 7px 20px;
+	border: none;
+	width: 100%;
+	border-radius: 3px;
+	margin-top: 50px;
+	background-color: orange;
+}
+

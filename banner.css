@@ -1,0 +1,76 @@
+*{margin: 0px;
+  padding: 0px;}
+
+  .headline{
+  	display: flex;
+  	background-color: #00365c;
+  	color: white;
+  	padding: 10px;
+  }
+  .headline p{
+  	flex: 1;
+  	text-align: center;
+  }
+  .ff1{
+  	font-family: 'Impact';
+  }
+  .ff1 span{
+  	font-family: 'MS Sans Serif';
+  }
+  .ff2{
+  	font-family: 'Comic Sans MS';
+  }
+  /* fist section end and css end */
+
+  .parent{
+  	display: flex;
+  }
+  .parent div{
+  	flex: 1;
+  }
+  .parent div h2{
+  	padding-top: 100px;
+  	font-size: 50px;
+  	text-transform: uppercase;
+  }
+  .parent div p{
+  	padding-top: 10px;
+  	font-family: 'Lucida Sans Unicode';
+  }
+  .fa-check{
+  	padding-right: 8px;
+  }
+
+  .banner{
+  	padding:50px 80px;
+  	background-image: url('https://www.wagnerbrake.com/content/loc-na/loc-us/fmmp-wagner/en_US/parts-matter/driver-education-and-vehicle-safety/how-to-brake-in-winter-weather/jcr:content/header-hero.img.gif/1545231740074.gif%22)');
+  	background-repeat: no-repeat;
+  	background-size:100% 100%;
+  	color: white;
+  }
+
+  form{
+  	background-color: #0c7ed1;
+  	width: 317px;
+  	text-align: center;
+  	padding: 20px;
+  }
+  form h3{
+  	font-size: 37px;
+  	text-transform: uppercase;
+  }
+  form input{
+   width: 85%;
+   padding: 8px;
+   margin: 2px 0px;
+  }
+  #btn{
+  	width: 93%;
+  	margin-top: 30px;
+  	background-color: #00365d;
+  	color: white;
+  	border: none;
+  	padding:  20px;
+  }
+
+  

@@ -1,0 +1,101 @@
+*{margin: 0px;
+padding: 0xp;}
+.first_div{
+	background-color: #142aa1;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+/*first div css end*/
+.banner{
+	background-image: linear-gradient(to right, black, cyan ,black);
+}
+.pa{
+	display: flex;
+}.pa div{flex: 1;}
+.pa div h2{
+	padding: 30px 0px;
+    font-size: 40px;	
+}
+.box1{
+	color: white;
+	display: flex;
+}
+.box1 h4{
+	font-size: 30px;
+	width: 180px;
+	padding: 20px;
+}
+.border{
+	border-left: 3px solid white;
+    border-right: 3px solid white;
+
+}
+.pa div h5{color: white;
+         font-size: 30px;
+         text-transform: capitalize;}
+
+fieldset{
+	color: white;
+	width: 300px;
+	margin: 20px 0px;
+	padding: 15px;
+}
+legend{
+	font-size: 29px;
+}
+.orange{padding: 7px 20px; background-color: orange;
+border: none; color: white;}
+.blue{padding: 7px 20px;background-color:blue ;
+color: white; border: none;}
+
+.round{
+	padding: 12px 28px;
+	border-radius: 30px;
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+	margin-bottom: 50px;
+}
+.pp{
+	color: white;
+	text-align: right;
+	padding-bottom: 10px;
+}
+.blue h3{text-align: center;}
+.blue ul {
+	display: flex;
+padding: 30px 0px;
+list-style-type: none;
+}
+li{flex: 1;
+font-size: 20px;}
+
+.product{
+	background-color: black;
+	padding: 50px 120px;
+	color: white;
+}
+.center{text-align: center;}
+.product h1{text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

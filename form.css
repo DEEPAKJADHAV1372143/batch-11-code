@@ -1,0 +1,87 @@
+*{margin: 0px;
+  padding: 0px;}
+
+.center_box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url('img.png');
+	background-repeat: no-repeat;
+	background-size: 150% 60%;
+	background-position: bottom center;
+
+}
+.row{
+	border: 1px solid lightgray;
+	display: flex;
+	width: 60%;
+	background-color: white;
+	padding: 20px;
+	box-shadow: -10px -10px 40px gray;
+}
+span{
+	color: blue;
+}
+.col-half{
+	flex: 1;
+}
+.col-half h5{
+	font-weight: bold;
+	font-size: 24px;
+	font-family: 'Impact';
+}
+.col-half h3{
+	font-weight: bold;
+	font-size: 29px;
+	font-family: 'Impact';
+}
+.col-half p{
+	color: lightgray;
+	padding-bottom: 20px;
+}
+form div{
+	border: 1px solid blue;
+	margin: 10px 0px;
+	width: 60%;
+	padding: 6px 12px;
+}
+.fa{
+	margin-right: 10px;
+}
+form input{
+	border: none;
+}
+input[type="text"],
+input[type="password"]{
+	width: 80%;
+}
+
+input[type="submit"]{
+	border-radius: 20px;
+	padding: 5px 19px;
+	background-color: blue;
+	color: white;
+}
+input[type="button"]{
+	background-color: transparent;
+	padding-left: 30px;
+}
+small{
+	color: lightgray;
+	text-decoration: none;
+	padding: 10px;
+}
+.fa-twitter ,
+.fa-google ,
+.fa-facebook{
+	padding: 10px;
+	background-color: lightgray;
+    border-radius: 50%;
+}
+.fa-facebook{
+	padding: 10px 14px;
+	color: blue;
+}
+.fa-twitter{color: cyan;}
+.fa-google{ color: red; }

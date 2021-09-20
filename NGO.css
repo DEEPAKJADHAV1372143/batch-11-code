@@ -1,0 +1,279 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	background-color: black;
+	display: flex;
+	color: tomato;
+	padding: 10px;
+}
+.header div{ flex: 1; text-align: center; }
+.header h1{ 
+	flex: 3;  
+	padding-top: 20px;
+    font-size: 40px;
+}
+
+ul{
+	padding: 7px 30px;
+}
+.navbar ul li{
+   display: inline;
+   padding: 10px 30px;
+}
+.navbar ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+.navbar ul li:hover{
+	background-color: #5fff3b;
+}
+.navbar ul li:hover a{
+	color: white;
+}
+.banner{
+	padding: 100px;
+	text-align: center;
+	height: 400px;
+	background-image: url('https://leometric.com/someshwarbss.in/assets/images/slideshow/slider1.jpg');
+	background-size: 100% 100%;
+	color: white;
+}
+.mix{
+	color: tomato;
+}
+.banner h1{
+	font-size: 50px;
+	font-family: 'Impact';
+	letter-spacing: 5px;
+	padding: 30px;
+}
+.banner p{
+	font-size: 30px;
+}
+.we_can{
+	text-align: center;
+	padding: 60px;
+}
+.we_can h1,
+.TRUST h1,
+.about_us h1
+{  text-align: center;
+	font-size: 40px;
+	padding: 20px;
+}
+.we_can hr,
+.TRUST hr,
+
+.about_us hr{
+	width: 200px;
+	height: 6px;
+	border: none;
+	background-color: tomato;
+	margin: auto;
+}
+.we_can p{
+	font-size: 26px;
+	color: gray;
+	padding: 20px;
+}
+
+.parent{
+	display: flex;
+	text-align: center;
+	padding: 20px 200px;
+}
+.parent div{
+	flex: 1;
+	padding: 2px;
+}
+
+.parent div .fa{
+	padding: 20px 25px;
+	color: tomato;
+	font-size: 50px;
+}
+.parent div .fa:hover{
+	border: 1px solid tomato;
+	border-radius: 7px;
+}
+.parent div h1{
+	padding: 20px;
+
+}
+.parent div p{
+	color: gray;
+	font-size: 24px;
+}
+
+
+.prallex{
+	width: 100%;
+	padding-bottom: 60px;
+	padding-top: 60px;
+   background-image: url('https://leometric.com/someshwarbss.in/assets/images/parallax/parallax-1.jpg');
+   background-size: 100% 100%;
+   color: white;
+   text-align: center;
+   background-attachment: fixed;
+}
+.prallex img{margin: 10px;}
+.prallex h1{
+	text-transform: uppercase;
+	font-size: 40px;
+	padding: 50px;
+}
+.prallex p{
+	font-size: 23px;
+}
+.prallex .t-box{
+	width: 40%;
+	margin: 60px auto;
+	background-color: rgba(64, 63, 62,0.7);
+	padding: 50px;
+}
+.t-box h2,
+.t-box marquee{
+	color: gray;
+	font-size: 29px;
+	padding: 20px;
+}
+#A{ color: #dc33f2; }
+#B{color: blue; 
+	width: 70%;
+  margin: auto;
+}
+
+
+.TRUST_box{
+	margin: 30px 200px;
+	display: flex;
+}
+.TRUST_box div{
+	flex: 1;
+	border: 1px solid gray;
+	margin: 0px 16px;
+	padding: 16px;
+}
+.TRUST_box div p{
+	font-size: 22px;
+	font-weight: bold;
+	color: gray;
+}
+.TRUST_box div b{
+	font-size: 18px;
+	font-weight: bold;
+	color: tomato;
+}
+
+
+.TRUST_box h6{
+	font-size: 16px;
+	color: gray;
+	text-align: justify;
+}
+.red-color-box{
+	background-color: #910626;
+	text-align: center;
+	font-size: 36px;
+	padding: 30px;
+	color: white;
+}
+
+.CAUSES{
+	display: flex;
+	padding: 40px 200px;
+}
+.CAUSES div{
+	flex: 1;
+}
+.CAUSES h3{
+	font-size: 30px;
+	padding: 20px 0px;
+}
+.footer hr,
+.CAUSES hr{
+	width: 200px;
+	height: 6px;
+	border: none;
+	background-color: tomato;
+	
+}
+.CAUSES button{
+	padding: 8px 25px;
+	font-size: 20px;
+	color: tomato;
+	background-color: white;
+	border: 1px solid gray;
+	margin-top: 30px;
+}
+
+.papa{
+	display: flex;
+	border: 1px solid gray;
+	padding: 10px;
+}
+.papa div{
+	padding: 10px;
+}
+
+.papa img{
+	border: 6px solid #f2edef;
+	border-radius: 8px;
+}
+
+.right{
+	padding: 20px;
+}
+.right p{
+	font-size: 18px;
+	color: gray;
+	padding: 9px 0px;
+}
+.gray{background: lightgray;}
+.tototo{background: tomato; width: 50%;
+ text-align: center;
+ padding: 5px;
+}
+.tototo1{width: 20%;background: tomato;text-align: center;
+ padding: 5px;}
+.tototo2{width: 80%; background: tomato;text-align: center;
+ padding: 5px;}
+.tototo3{width: 30%; background: tomato;text-align: center;
+ padding: 5px;}
+
+
+
+
+.footer{
+	background-color: black;
+	color: gray;
+	display: flex;
+	padding: 80px;
+}
+.footer .doguna{
+	flex: 2;
+	text-align: center;
+}
+.footer .single{
+	flex: 1;
+}
+.footer p{
+	padding: 10px 0px;
+}
+
+.last{
+	text-align: center;
+	color: tomato;
+	background-color: black;
+	padding: 12px;
+	font-size: 20px;
+}
+
+
+
+
+
+
